@@ -11,7 +11,7 @@ function Work() {
         </h2>
         <p className="mt-2 text-gray-600 max-w-xl">
           A selection of projects and professional work showcasing my skills
-          in frontend development.
+          in frontend and backend development, with a focus on real-world applications and
         </p>
       </div>
 
@@ -68,7 +68,8 @@ function Work() {
         </div>
 
         {/* Project Card 2 */}
-        <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+        
+        {/* <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
           <a href="#" aria-label="Portfolio project preview">
             <img
               src="/Screen Shot 2025-12-30 at 21.44.23.png"
@@ -87,7 +88,6 @@ function Work() {
               showcase projects, skills, and professional experience.
             </p>
 
-            {/* Tech Stack */}
             <div className="flex flex-wrap gap-2 mb-4">
               {["React", "Tailwind CSS", "Git", "GitHub"].map((tech) => (
                 <span
@@ -106,7 +106,46 @@ function Work() {
               View Project →
             </a>
           </div>
+        </div> */}
+
+        <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+          <a href="https://movieverse-vercel.vercel.app/" aria-label="Movieverse-Mernstack project preview">
+            <img
+              src="/mivieverse.png"
+              alt="Movieverse-Mernstack"
+              className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </a>
+
+          <div className="p-6">
+            <h3 className="text-2xl font-bold mb-2">
+              Movieverse - Mernstack
+            </h3>
+
+            <p className="text-gray-600 mb-4">
+             Developed a full-stack Movie Management Application with a responsive UI using React.js and Material-UI. Implemented JWT-based authentication with role-based access (Admin/User). 
+            </p>
+
+            <div className="flex flex-wrap gap-2 mb-4">
+              {["React", "Material UI", "Git", "GitHub","Javascript","JWT authentication","REST API","Node.js","Express.js","MongoDB"].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-3 py-1 text-sm rounded-full bg-green-100 text-green-600 font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <a
+              href="https://movieverse-vercel.vercel.app/"
+              className="inline-block text-blue-600 font-semibold hover:underline"
+            >
+              View Project →
+            </a>
+          </div>
         </div>
+        
 
       </div>
     </section>

@@ -13,7 +13,7 @@ function About() {
           </h2>
           <p className="mt-2 text-gray-600 max-w-xl">
             Get to know more about my background, skills, and passion for
-            frontend development.
+            fullstack development.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ function About() {
           {/* Text Content */}
           <div className="text-gray-700 text-base md:text-lg leading-relaxed">
             <p className="mb-4">
-              I am a <span className="font-semibold text-gray-900">Frontend Developer</span>{" "}
+              I am a <span className="font-semibold text-gray-900">Fullstack Developer</span>{" "}
               specializing in building responsive, scalable, and user-friendly
               web applications using modern technologies.
             </p>
@@ -59,6 +59,14 @@ function About() {
                 "JavaScript",
                 "HTML5",
                 "CSS3",
+                "Git & GitHub",
+                "Material-UI",
+                "Node.js",
+                "Express.js",
+                "RESTful APIs",
+                "Jwt Authetication",
+                "MongoDB",
+                "CRUD Operations"
               ].map((skill) => (
                 <span
                   key={skill}

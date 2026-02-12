@@ -12,13 +12,18 @@ function Heading() {
         </h1>
 
         <p className="mt-4 text-xl md:text-2xl font-semibold text-gray-700">
-          Frontend Developer · React
+          Fullstack · Mern
         </p>
 
         <p className="mt-4 max-w-xl text-gray-600">
-          I build modern, responsive web applications using React, Tailwind CSS,
-          and best UI practices. Passionate about creating clean and scalable
-          user experiences.
+          I am a passionate Full Stack Developer skilled in building responsive
+          and scalable web applications using modern technologies. I have
+          hands-on experience in both frontend and backend development, working
+          with technologies like React.js, Node.js, Express.js, and MongoDB. I
+          enjoy solving complex problems, writing clean and efficient code, and
+          creating user-friendly applications. I am constantly learning new
+          technologies and improving my skills to build high-quality, real-world
+          projects.
         </p>
 
         {/* Buttons */}

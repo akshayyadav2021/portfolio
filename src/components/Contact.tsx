@@ -15,7 +15,7 @@ function Contact() {
 
         {/* Description */}
         <p className="mt-6 max-w-xl mx-auto text-gray-600 text-base md:text-lg">
-          I’m currently open to frontend development opportunities, freelance
+          I’m currently open to fullstack development opportunities, freelance
           projects, and collaborations. Let’s build something great together.
         </p>
 
